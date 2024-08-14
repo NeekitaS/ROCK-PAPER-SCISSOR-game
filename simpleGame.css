@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#topImg
+{
+    height: 200px;
+    width: 500px;
+}
+
+body{
+   /* background-color: rgb(251, 191, 222);*/
+    background-image: linear-gradient(rgb(153, 252, 219),rgb(251, 191, 222));
+}
+h1{
+    background-color: rgb(4, 4, 81);
+    color: rgb(244, 194, 156);
+    height: 7rem;
+    font-size:xx-large;
+    line-height: 7rem;
+    
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: rgb(8, 8, 38);
+
+}
+
+.rps
+{
+    height: 150px;
+    width: 150px;
+   /* object-fit: cover;*/
+   border-radius: 40%;
+   border: 10px;
+}
+
+.choices /* ssetting all images horizontally with help of its container*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.score-board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 3rem;
+    gap: 7rem;
+}
+
+#user-score, #comp-score
+{
+    font-size: 4rem;
+}
+
+#msg
+{
+    margin-top: 4rem;
+    background-color: rgb(21, 18, 18);
+    color: rgb(206, 214, 220);
+    height: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+#para
+{
+    margin-top: 3rem;
+    background-color: rgb(244, 180, 96);
+    color: rgb(4, 4, 55);
+    height: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
